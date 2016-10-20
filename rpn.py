@@ -25,6 +25,12 @@ def calculate(myarg):
 			arg1 = stack.pop()
 			result = function(arg1, arg2)
 			stack.append(result)
+			if (false):
+				print 'a'
+				print 'b'
+				print 'c'
+				print 'd'
+				print 'coverage goes down'
 		print(stack)
 	if len(stack) != 1:
 		raise TypeError("Too many parameters")
