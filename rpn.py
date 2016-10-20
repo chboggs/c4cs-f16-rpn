@@ -25,7 +25,7 @@ def calculate(myarg):
 			arg1 = stack.pop()
 			result = function(arg1, arg2)
 			stack.append(result)
-			if (false):
+			if (False):
 				print 'a'
 				print 'b'
 				print 'c'
