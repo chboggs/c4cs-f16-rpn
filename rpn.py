@@ -25,7 +25,8 @@ def calculate(myarg):
 			arg1 = stack.pop()
 			result = function(arg1, arg2)
 			stack.append(result)
-			if (False):
+			myT = True;
+			if (myT == False):
 				a = 50
 				b = a + 20
 				c = a + b
